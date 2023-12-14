@@ -8,16 +8,16 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html');
 });
 
-app.get('/CBR500R', (req, res) => {
-  res.sendFile(__dirname + '/public/CBR500R.html');
+app.get('/CBR600R', (req, res) => {
+  res.sendFile(__dirname + '/public/CBR600R.html');
 });
 
 app.get('/CB125R', (req, res) => {
   res.sendFile(__dirname + '/public/CB125R.html');
 });
 
-app.get('/CB650R', (req, res) => {
-  res.sendFile(__dirname + '/public/CB650R.html');
+app.get('/CBR500R', (req, res) => {
+  res.sendFile(__dirname + '/public/CBR500R.html');
 });
 
 app.get('/CB1000R', (req, res) => {
